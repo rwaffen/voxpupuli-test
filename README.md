@@ -74,6 +74,12 @@ To autocorrect Ruby files:
 bundle exec rake rubocop:autocorrect
 ```
 
+To generate or refresh a `.rubocop_todo.yml` file:
+
+```sh
+bundle exec rake rubocop:regenerate_todo
+```
+
 ## Rake tasks
 
 ### `check:trailing_whitespace`
